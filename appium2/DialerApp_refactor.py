@@ -42,5 +42,7 @@ number_to_dial = "984463951"
 
 dial_number(driver, number_to_dial)
 
+driver.find_element(AppiumBy.ID, 'com.samsung.android.dialer:id/dialButtonImage').click()
+
 time.sleep(2)
 driver.quit()
